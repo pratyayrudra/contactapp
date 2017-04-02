@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.student.css">
+<link rel="stylesheet" type="text/css" href="/css/style.student.css">
+<link rel="stylesheet" type="text/css" href="/font-awesome/css/font-awesome.css">
+      
+<div class="intro-header">
+  <div class="pos">
+        <a class="btn btn-primary" href="#/">
+        <i class="fa fa-home fa-fw"></i>
+        HOME
+        </a>
+        </div>
+        <div class="centering">
+    <div class="container">
+
+                    <div class="intro-message">
+                        <h1>Register</h1>
+                        <hr class="intro-divider">
+                        <table class="table">
+                        <thead>
+                            <tr>
+                                <td><input type="text" class="form-control" ng-model="contact.name" placeholder="Enter Fullname" required /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control" ng-model="contact.email" placeholder="Enter Email" required /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="form-control" ng-model="contact.number" placeholder="Enter Phone Number" required /></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <button class="btn btn-primary" ng-disabled="!contact.name || !contact.email ||!contact.number" ng-click="addcontact()"><i class="fa fa-plus fa-fw"></i>Click To Register</button>
+     
+                                </td>
+    
+                            </tr>
+                        </thead>
+                        </table>
+                    </div>
+        </div>
+        <!-- /.container -->
+        </div>
+    </div>
+    <!-- /.intro-header -->
+    <script src="/js/bootstrap/dist/js/bootstrap.js"></script>
