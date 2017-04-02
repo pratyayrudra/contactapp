@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "listapp",
   "main": "app.js",
+  "engines": { 
+    "node": "6.10.1"  
+  }, 
+ 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
